@@ -14,6 +14,7 @@
 		A92AC4011A57CBE40071EEEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92AC4001A57CBE40071EEEB /* Images.xcassets */; };
 		A92AC4041A57CBE40071EEEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92AC4021A57CBE40071EEEB /* LaunchScreen.xib */; };
 		A92AC4101A57CBE40071EEEB /* Second_ApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A92AC40F1A57CBE40071EEEB /* Second_ApplicationTests.m */; };
+		A92AC41B1A58DB8A0071EEEB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92AC41A1A58DB8A0071EEEB /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A92AC4091A57CBE40071EEEB /* Second ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92AC40E1A57CBE40071EEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92AC40F1A57CBE40071EEEB /* Second_ApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Second_ApplicationTests.m; sourceTree = "<group>"; };
+		A92AC4191A58DB8A0071EEEB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A92AC41A1A58DB8A0071EEEB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				A92AC3FA1A57CBE40071EEEB /* ViewController.h */,
 				A92AC3FB1A57CBE40071EEEB /* ViewController.m */,
 				A92AC3FD1A57CBE40071EEEB /* Main.storyboard */,
+				A92AC4191A58DB8A0071EEEB /* HomeViewController.h */,
+				A92AC41A1A58DB8A0071EEEB /* HomeViewController.m */,
 				A92AC4001A57CBE40071EEEB /* Images.xcassets */,
 				A92AC4021A57CBE40071EEEB /* LaunchScreen.xib */,
 				A92AC3F31A57CBE40071EEEB /* Supporting Files */,
@@ -222,6 +227,7 @@
 				A92AC3FC1A57CBE40071EEEB /* ViewController.m in Sources */,
 				A92AC3F91A57CBE40071EEEB /* AppDelegate.m in Sources */,
 				A92AC3F61A57CBE40071EEEB /* main.m in Sources */,
+				A92AC41B1A58DB8A0071EEEB /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

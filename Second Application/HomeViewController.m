@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  Second Application
 //
-//  Created by Daesung Kim on 2015. 1. 3..
+//  Created by Daesung Kim on 2015. 1. 4..
 //  Copyright (c) 2015년 Daesung Kim. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,8 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)unwindFromView:(UIStoryboardSegue *)segue {}
+
 - (UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;
 }
+
 
 @end
